@@ -2,6 +2,7 @@
 switch、数字转中文、合计功能
 
 ## switch
+html
 ```html
 <el-table-column
   prop="chargeItem"
@@ -11,6 +12,7 @@ switch、数字转中文、合计功能
   show-overflow-tooltip>
 </el-table-column>
 ```
+js
 ```js
 paymentChannelFormatter (row, column) {
   if (row.chargeItem) {
